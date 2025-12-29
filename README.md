@@ -68,12 +68,13 @@ language-agnostic for future extensions.
 Enter the number of pages to scan:
 ```
 
-## 📤 Ausgabe
+##📤 Output
+List of discovered subreddit names:
 
-- Liste der gefundenen Subreddit-Namen
-- Endstatistik:
-  - Gesamtanzahl gefundener Einträge
-  - Anzahl eindeutiger Communities
+-Final statistics:
+-total matches found
+  -total matches found
+  -unique communities collected
 
 ```Text
 Gesamtzahl der Sites   : 240
