@@ -83,8 +83,8 @@ Enter the number of pages to scan:
 
 
 ```Text
-Sites total        : 240
-Unique communities : 173
+Sites total        : 20
+Unique communities : 5000
 ```
 
 ## 🧠 Design Choices
