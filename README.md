@@ -16,6 +16,22 @@ A **fast, lightweight and comfortable PowerShell tool** to extract Reddit commun
 — without using the Reddit API.
 
 ---
+## Table of Contents
+
+- [Overview](#⭐-overview)
+- [Features](#🚀-features)
+- [How It Works](#⚙️-how-it-works)
+- [Requirements](#📦-requirements)
+- [Usage](#▶️-usage)
+- [Output](#📤-output)
+- [Design Choices](#🧠-design-choices)
+- [Typical Use Cases](#🧩-typical-use-cases)
+- [Legal Notice](#🔒-legal-notice)
+- [License](#📄-license)
+- [Repository](#📌-repository)
+- [Support](#⭐-support)
+- [Roadmap](#🔮-roadmap)
+
 
 ## ⭐ Overview
 
