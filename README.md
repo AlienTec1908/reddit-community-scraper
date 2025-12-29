@@ -1,5 +1,10 @@
 # 🛰️ Reddit Community Scraper
 
+
+<p align="center">
+  <img src="Reddit-Community-Scraper.png" alt="agent-image-ripper cover" width="50%" style="height: 20rem;">
+</p>
+
 ![PowerShell](https://img.shields.io/badge/PowerShell-5%2B-blue)
 ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey)
 ![License](https://img.shields.io/badge/License-MIT-green)
