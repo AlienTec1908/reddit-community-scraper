@@ -162,6 +162,14 @@ If you find this project useful:
 - Old / New Reddit fallback
 - Modular version
 
+- **Community Filtering & Search (in development)**  
+  Planned feature to:
+  - Filter communities by keywords
+  - Exclude certain communities
+  - Search for specific communities within the results
+
+---
+
 ### Running the script without parameters (default: 5 pages)
 
 ```powershell
