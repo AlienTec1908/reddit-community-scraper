@@ -67,3 +67,15 @@ language-agnostic for future extensions.
 .\scraper.ps1
 Enter the number of pages to scan:
 ```
+
+## 📤 Ausgabe
+
+- Liste der gefundenen Subreddit-Namen
+- Endstatistik:
+  - Gesamtanzahl gefundener Einträge
+  - Anzahl eindeutiger Communities
+
+```Text
+Gesamtzahl der Sites   : 240
+Eindeutige Communities : 173
+```
