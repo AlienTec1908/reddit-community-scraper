@@ -1,18 +1,20 @@
 ﻿cls
 $script:howmany  = 0
 $listecommunitys = @()
-$loop            = Read-Host -Prompt "Geben Sie bitte eine Zahl ein der Anzahl an Seiten zu scrallen"
+$loop            = Read-Host -Prompt "Enter the number of pages to scan"
  
 
 if ( $loop -notmatch "^\d+$" ) {
  
-       Write-Host "Du hast keine Zahl eingegeben: $loop"
+       Write-Host "Invalid input. Please enter a numeric value: $loop"
        exit
     
     } else { 
       
            $loop = [int]$loop
-           Write-Host "Du hast eine Zahl eingegeben: $loop"
+           Write-Host "You entered a valid number: $loop"
+
+
          
 }
 
@@ -41,6 +43,7 @@ foreach( $id in $(1..$loop)){
 
          Start-Sleep -Milliseconds 500
 }
+
 
 $listecommunitys = $listecommunitys | Sort-Object -Unique
 $listecommunitys
