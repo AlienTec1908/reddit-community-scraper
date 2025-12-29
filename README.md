@@ -70,14 +70,108 @@ Enter the number of pages to scan:
 
 ## 📤 Output
 
-List of discovered subreddit names
+- List of discovered subreddit names
+- Final statistics:
+  - Total matches found
+  - Unique communities collected
 
--Final statistics:
- -total matches found
- -unique communities collected
 
 
 ```Text
-Gesamtzahl der Sites   : 240
-Eindeutige Communities : 173
+Sites total        : 240
+Unique communities : 173
 ```
+
+## 🧠 Design Choices
+
+- **HTML parsing instead of API usage**  
+  Stable, anonymous and independent from Reddit API limits
+
+- **Native PowerShell implementation**  
+  Ideal for automation, pipelines and further processing
+
+- **Defensive parsing approach**  
+  Tolerant against minor Reddit HTML structure changes
+
+---
+
+## 🧩 Typical Use Cases
+
+- OSINT & reconnaissance preparation
+- Community and topic mapping
+- Keyword and trend research
+- Feeding data into other tooling
+- Learning practical web parsing in PowerShell
+
+---
+
+## 🔒 Legal Notice
+
+This tool accesses **publicly available content only**  
+and performs **no authenticated actions** against Reddit.
+
+---
+
+## 📄 License
+
+MIT License
+
+```text
+MIT License
+
+Copyright (c) 2025 AlienTec1908
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
+```
+
+## 📌 Repository
+
+🔗 [https://github.com/AlienTec1908/reddit-community-scraper](https://github.com/AlienTec1908/reddit-community-scraper)
+
+---
+
+## ⭐ Support
+
+If you find this project useful:
+
+- ⭐ Star the repository
+- 🍴 Fork it
+- 🐞 Report issues
+- 💡 Suggest improvements
+
+---
+
+## 🔮 Roadmap
+
+- Parallel requests
+- Old / New Reddit fallback
+- Modular version
+
+### Running the script without parameters (default: 5 pages)
+
+```powershell
+.\getCommunitiesReddit.ps1
+
+Running the script with a specific number of pages (e.g., 10 pages)
+.\getCommunitiesReddit.ps1 -loop 10
+
+Running the script with page count and CSV output
+.\getCommunitiesReddit.ps1 -loop 10 -csvOutput "communities.csv"
+```
+---
+- `$loop` → Number of pages to scan
+- `$csvOutput` → Path to save the CSV file (optional)
+- Console output remains visible as usual
+
+- `$csvOutput` → Path to save the CSV file (optional)
+- Console output remains visible as usual
