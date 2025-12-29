@@ -68,13 +68,13 @@ language-agnostic for future extensions.
 Enter the number of pages to scan:
 ```
 
-##📤 Output
+## 📤 Output
 
 List of discovered subreddit names
 
 -Final statistics:
-   -total matches found
-   -unique communities collected
+ -total matches found
+ -unique communities collected
 
 
 ```Text
