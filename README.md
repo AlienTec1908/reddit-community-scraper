@@ -36,6 +36,7 @@ A **fast, lightweight and comfortable PowerShell tool** to extract Reddit commun
 
 
 
+
 ## ⭐ Overview
 
 This project focuses on **simplicity, reliability and transparency**.
