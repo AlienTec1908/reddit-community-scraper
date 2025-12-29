@@ -69,12 +69,13 @@ Enter the number of pages to scan:
 ```
 
 ##📤 Output
-List of discovered subreddit names:
+
+List of discovered subreddit names
 
 -Final statistics:
--total matches found
-  -total matches found
-  -unique communities collected
+   -total matches found
+   -unique communities collected
+
 
 ```Text
 Gesamtzahl der Sites   : 240
