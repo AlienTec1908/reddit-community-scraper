@@ -48,8 +48,8 @@ Write-Host -ForegroundColor Cyan " [!] " -NoNewline
 Write-Host -ForegroundColor Green $listecommunitys.count
 Write-Host -ForegroundColor Magenta "`n$("*" *35)" 
 
-# CSV Output nur hinzufügen
 if ($csvOutput) {
     $listecommunitys | ForEach-Object { [PSCustomObject]@{Community = $_} } | Export-Csv -Path $csvOutput -NoTypeInformation -Encoding UTF8
     Write-Host "CSV saved to $csvOutput"
 }
+
